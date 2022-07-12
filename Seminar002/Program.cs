@@ -14,7 +14,7 @@ int digit = FindBiggerDigit(number);
 
 Console.WriteLine($"Bigger digit of {number} is {digit}");
 */
-
+/*
 void FindBiggerDigitVoid(int num)
 {
     int ed = num % 10;
@@ -27,3 +27,20 @@ void FindBiggerDigitVoid(int num)
 }
 
 FindBiggerDigitVoid(38);
+*/
+/*
+bool IsKratno (int n1, int n2)
+{
+    if (n1%n2==0)return true;
+    else return false;
+}
+
+Console.WriteLine("Input first number: ");
+int num1 = Convert.ToInt32(Console.ReadKey());
+Console.WriteLine("Input second number: ");
+int num2 = Convert.ToInt32(Console.ReadKey());
+
+bool kratno=IsKratno (num1,num2);
+
+Console.WriteLine(kratno);
+*/
